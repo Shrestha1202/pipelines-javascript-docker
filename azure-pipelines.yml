@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '8152f405-9025-48f8-8c29-510a0f62abed'
   imageRepository: 'shresthapipelinesjavascriptdocker'
-  containerRegistry: 'shresthacontainerregistry.azurecr.io'
+  containerRegistry: 'mycontainerregistryShrestha.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
 
